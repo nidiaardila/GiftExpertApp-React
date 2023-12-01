@@ -13,7 +13,7 @@ export const AddCategory = ({onNewCategory}) => {
     const onSubmit = (event) => {
       event.preventDefault();
       // console.log(inputValue);
-      // si el input esta vacio o tiene menos de 2 caracteres. retorna
+      // si el input esta vacio o tiene menos de 2 caracteres. retorna.
       if(inputValue.trim().length <= 1) return;
 
       // setCategories(categories =>[inputValue, ...categories]);
